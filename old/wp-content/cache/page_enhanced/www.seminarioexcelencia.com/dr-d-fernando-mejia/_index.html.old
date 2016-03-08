@@ -1,0 +1,615 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="es-ES"> <!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs 
+========================================================= -->
+<meta charset="UTF-8">
+<title>Dr. D. Fernando Mejía | Seminario Internacional de Seguridad del Paciente y Excelencia Clínica IDCSalud</title>
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- Mobile Specific Metas & Favicons
+========================================================= -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="shortcut icon" href="http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/favicon-1.ico">
+<link rel="apple-touch-icon" href="http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/seminarioiphone.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/seminarioiphoenretina.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/seminarioipad.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/seminarioipadretina.png">
+
+<!-- WordPress Stuff
+========================================================= -->
+<link rel="pingback" href="http://www.seminarioexcelencia.com/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="Seminario Internacional de Seguridad del Paciente y Excelencia Clínica IDCSalud &raquo; Feed" href="http://www.seminarioexcelencia.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Seminario Internacional de Seguridad del Paciente y Excelencia Clínica IDCSalud &raquo; RSS de los comentarios" href="http://www.seminarioexcelencia.com/comments/feed/" />
+<link rel='stylesheet' id='basic-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/basic.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='headers-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/headers.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/bootstrap.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/shortcodes.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/flexslider.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/prettyPhoto.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/seminario/style.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='retina-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/retina.css?ver=1' type='text/css' media='only screen and (-webkit-min-device-pixel-ratio: 2)' />
+<link rel='stylesheet' id='skeleton-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/skeleton.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/responsive.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-settings-css'  href='http://www.seminarioexcelencia.com/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=3.8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-captions-css'  href='http://www.seminarioexcelencia.com/wp-content/plugins/revslider/rs-plugin/css/captions.css?ver=3.8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/css/custom_script.css?ver=3.8.7' type='text/css' media='all' />
+<style type='text/css'>
+
+        	
+        	body{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; color: #494A4A; }
+
+			h1{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 28px; font-weight: normal; color: #2b95a8; }
+			h2{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 23px; font-weight: normal; color: #494A4A; }
+			h3{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 20px; font-weight: normal; color: #494A4A; }
+			h4{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 19px; font-weight: normal; color: #666666; }
+			h5{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: normal; color: #666666; }
+			h6{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 17px; font-weight: normal; color: #666666; }
+
+			h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited  { font-weight: inherit; color: inherit; }
+
+			h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 { color: #6ec0e6; }
+
+			.callus{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #1C92B3 !important; }
+
+			a, a:visited{ color: #1C92B3; }
+			a:hover, a:focus{ color: #6ec0e6; }
+			#infobar{ position: absolute; }
+
+			#topbar{ background: #ffffff; border-bottom: 2px solid #1C92B3; }
+			#topbar .callus { color: #1C92B3; }
+			#topbar .callus a { color: #1C92B3; }
+			#topbar .callus a:hover { color: #cfcdcd; }
+
+			.header{ background: #ffffff; }
+			.header .slogan{ font-family: arial, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; color: #1C92B3; }
+
+			/* Header V1 ------------------------------------------------------------------------ */  
+
+			#header { height: 140px; }
+			#header .logo{ margin-top: 33px; }
+			#header .select-menu{ background: #ffffff }
+
+			#header #navigation ul li { height: 140px; }
+			#header #navigation ul li a { height: 137px; line-height: 137px; }
+			#header #navigation .sub-menu{ top: 137px; }
+			#header #header-searchform{ margin-top: 29px; }
+
+			#header #navigation ul li a { font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #666666; }
+			#header #navigation ul li a:hover { color: #333333; border-color: #333333; }
+			#header #navigation li.current-menu-item a,
+			#header #navigation li.current-menu-item a:hover,
+			#header #navigation li.current-page-ancestor a,
+			#header #navigation li.current-page-ancestor a:hover,
+			#header #navigation li.current-menu-ancestor a,
+			#header #navigation li.current-menu-ancestor a:hover,
+			#header #navigation li.current-menu-parent a,
+			#header #navigation li.current-menu-parent a:hover,
+			#header #navigation li.current_page_ancestor a,
+			#header #navigation li.current_page_ancestor a:hover { color: #289dcc; border-color: #289dcc; }
+
+			/* Header V2 ------------------------------------------------------------------------ */  
+
+			#header-v2 .header-v2-container{ height: 90px; }
+			#header-v2 .logo{ margin-top: 33px; }
+			#header-v2 #header-searchform{ margin-top: 28px; }
+			#header-v2 .slogan{ margin-top: 33px; }
+			#header-v2 #navigation .sub-menu{ top: 41px; }
+
+			#header-v2 #navigation ul li a { font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #666666; }
+			#header-v2 #navigation ul li a:hover { color: #333333; border-color: #333333; }
+			#header-v2 #navigation li.current-menu-item a,
+			#header-v2 #navigation li.current-menu-item a:hover,
+			#header-v2 #navigation li.current-page-ancestor a,
+			#header-v2 #navigation li.current-page-ancestor a:hover,
+			#header-v2 #navigation li.current-menu-ancestor a,
+			#header-v2 #navigation li.current-menu-ancestor a:hover,
+			#header-v2 #navigation li.current-menu-parent a,
+			#header-v2 #navigation li.current-menu-parent a:hover,
+			#header-v2 #navigation li.current_page_ancestor a,
+			#header-v2 #navigation li.current_page_ancestor a:hover { color: #289dcc; border-color: #289dcc; }
+
+			#header-v2 #navigation li.current-menu-item a:after,
+			#header-v2 #navigation li.current-page-ancestor a:after,
+			#header-v2 #navigation li.current-menu-ancestor a:after,
+			#header-v2 #navigation li.current-menu-parent a:after,
+			#header-v2 #navigation li.current_page_ancestor a:after{
+				border-color: #289dcc transparent transparent transparent;
+			}
+
+			/* Header V3 ------------------------------------------------------------------------ */  
+
+			#header-v3 { height: 90px; }
+			#header-v3 .logo{ margin-top: 33px; }
+			#header-v3 #navigation ul{ margin-top: 26px; }
+			#header-v3 #header-searchform{ margin-top: 30px; }
+			#header-v3 #navigation .sub-menu{ top: 37px; }
+
+			#header-v3 #navigation ul li a { font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #666666; }
+
+			#header-v3 #navigation ul li a:hover, #header-v3 #navigation ul li.sfHover a  { background: #333333; }
+
+			#header-v3 #navigation li.current-menu-item a,
+			#header-v3 #navigation li.current-menu-item a:hover,
+			#header-v3 #navigation li.current-page-ancestor a,
+			#header-v3 #navigation li.current-page-ancestor a:hover,
+			#header-v3 #navigation li.current-menu-ancestor a,
+			#header-v3 #navigation li.current-menu-ancestor a:hover,
+			#header-v3 #navigation li.current-menu-parent a,
+			#header-v3 #navigation li.current-menu-parent a:hover,
+			#header-v3 #navigation li.current_page_ancestor a,
+			#header-v3 #navigation li.current_page_ancestor a:hover { background: #289dcc; }
+
+			/* Header V4 ------------------------------------------------------------------------ */  
+
+			#header-v4 .header-v4-container{ height: 90px; }
+			#header-v4 .logo{ margin-top: 33px; }
+			#header-v4 #header-searchform{ margin-top: 28px; }
+			#header-v4 .slogan{ margin-top: 33px; }
+			#header-v4 #navigation .sub-menu{ top: 41px; }
+
+			#header-v4 #navigation{ background: #555555; }
+			#header-v4 #navigation ul li a { font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #666666; }
+
+			#header-v4 #navigation ul li a:hover, #header-v4 #navigation ul li.sfHover a { background: #333333; }
+
+			#header-v4 #navigation li.current-menu-item a,
+			#header-v4 #navigation li.current-menu-item a:hover,
+			#header-v4 #navigation li.current-page-ancestor a,
+			#header-v4 #navigation li.current-page-ancestor a:hover,
+			#header-v4 #navigation li.current-menu-ancestor a,
+			#header-v4 #navigation li.current-menu-ancestor a:hover,
+			#header-v4 #navigation li.current-menu-parent a,
+			#header-v4 #navigation li.current-menu-parent a:hover,
+			#header-v4 #navigation li.current_page_ancestor a,
+			#header-v4 #navigation li.current_page_ancestor a:hover { background: #289dcc; }
+
+			/* Header V5 ------------------------------------------------------------------------ */  
+
+			#header-v5 .header-v5-container{ height: 107px; }
+			#header-v5 .logo{ margin-top: 33px; }
+			#header-v5 .slogan{ margin-top: 4px; }
+			#header-v5 #navigation .sub-menu{ top: 41px; }
+
+			#header-v5 #navigation ul li a { font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #666666; }
+
+			#header-v5 #navigation ul li a:hover { color: #333333; }
+			        
+			#header-v5 #navigation li.current-menu-item a,
+			#header-v5 #navigation li.current-menu-item a:hover,
+			#header-v5 #navigation li.current-page-ancestor a,
+			#header-v5 #navigation li.current-page-ancestor a:hover,
+			#header-v5 #navigation li.current-menu-ancestor a,
+			#header-v5 #navigation li.current-menu-ancestor a:hover,
+			#header-v5 #navigation li.current-menu-parent a,
+			#header-v5 #navigation li.current-menu-parent a:hover,
+			#header-v5 #navigation li.current_page_ancestor a,
+			#header-v5 #navigation li.current_page_ancestor a:hover { color: #289dcc; border-color:#289dcc; }
+
+			/* Sub-Menu Navigation ------------------------------------------------------------------------ */ 
+
+			html body #navigation .sub-menu{ background: #001926 !important; border-color: #555555 !important; }
+			html body #navigation .sub-menu li a,
+			html body #navigation .sub-menu li .sub-menu li a,
+			html body #navigation .sub-menu li .sub-menu li .sub-menu li a { font-family: arial, Arial, Helvetica, sans-serif !important; font-size: 16px !important; font-weight: normal !important; color: #dedede !important; }
+			#navigation .sub-menu li{ border-color: #a5a5a5; }
+			#navigation .sub-menu li a:hover,
+			#navigation .sub-menu li .sub-menu li a:hover,
+			#navigation .sub-menu li.current-menu-item a,
+			#navigation .sub-menu li.current-menu-item a:hover,
+			#navigation .sub-menu li.current_page_item a,
+			#navigation .sub-menu li.current_page_item a:hover { color: #ffffff !important; }
+
+			#title {
+				background: #FFFFFF;
+			    background-image: linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+			    background-image: -o-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+			    background-image: -moz-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+			    background-image: -webkit-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+			    background-image: -ms-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+			    border-bottom: 2px solid #1C92B3;
+			    border-top: 2px solid #1C92B3;
+			}
+			#title h1 { font-family: arial, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: normal; color: #666666; }
+			#title h2 { font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #aaaaaa; }
+			#title #breadcrumbs { color: #aaaaaa; }
+			#title #breadcrumbs a { color: #aaaaaa; }
+			#title #breadcrumbs a:hover { color: #289dcc; }
+
+			#alt-title h1 { background:#289dcc; font-family: arial, Arial, Helvetica, sans-serif; font-size: 21px; font-weight: normal; color: #ffffff;  }
+			#alt-title h2 { background:#ffffff; font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #999999; }
+			#alt-breadcrumbs, #no-title { background:#ffffff; border-bottom: 2px solid #299dcc; color: #0f0e0e; }
+			#alt-title .grid{ opacity: 0.8; }
+			#no-title  #breadcrumbs{ color: #0f0e0e; }
+			#alt-breadcrumbs a, #no-title #breadcrumbs a { color: #0f0e0e; }
+			#alt-breadcrumbs a:hover, #no-title #breadcrumbs a:hover { color: #289dcc; }
+
+			#alt-title-2 h1 { font-family: arial, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #666666; }
+			#alt-title-2 { background-color: #efef; border-top:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4; }
+
+			#alt-title-2 #breadcrumbs, #alt-title-2 #breadcrumbs a{ color: #999999; }
+			#alt-title-2 #breadcrumbs a:hover{ color: #289dcc; }
+
+			#sidebar .widget h3 { font-family: arial, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #666666; }
+  
+
+			/* Twitter Bar ------------------------------------------------------------------------ */ 
+	
+			#twitterbar { font-family: arial, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; color: #ffffff; background: #299ecc; }
+			#twitterbar .twitterpost a { color: #ffffff; }
+
+			/* Footer ------------------------------------------------------------------------ */  
+	
+			#footer{ border-top: 2px solid #289dcc; }  
+			#footer, #infobar { border-top-color: #289dcc; background: #ffffff; color:#000000; }
+			#footer a, #infobar a{ color:#999999; }
+			#footer a:hover, #infobar a:hover{ color:#ffffff; }
+			#footer .widget h3, #infobar .widget h3 { font-family: arial, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal !important; color: #ffffff !important; border-bottom:1px solid #555555; }
+			#infobar .no-widgets{ color:#000000; }
+
+			/* Copyright ------------------------------------------------------------------------ */  
+	        
+			#copyright { background: #289dcc; color: #ffffff; }
+			#copyright a { color: #888888; }
+			#copyright a:hover { color: #ffffff; }
+
+			/* Forms ------------------------------------------------------------------------ */  
+	    
+			input[type='text'], input[type='password'], input[type='email'], textarea, select, button, input[type='submit'], input[type='reset'], input[type='button'] { font-family: arial, Arial, Helvetica, sans-serif; font-size: 16px; }
+	    
+			/* Accent Color ------------------------------------------------------------------------ */ 
+	
+			::selection { background: #1C92B3 }
+			::-moz-selection { background: #1C92B3 }
+			.highlight { color: #1C92B3 }
+			.post-icon { background: #1C92B3 }
+			.single .post-tags a:hover { background: #1C92B3; border-color: #1C92B3; }
+			#pagination a:hover { border-color: #1C92B3; background: #1C92B3; }
+			#filters ul li a:hover { color: #1C92B3 }
+			#filters ul li a.active { color: #1C92B3 }
+			.portfolio-item:hover .portfolio-title { background: #1C92B3; border-color: #1C92B3; }
+			.projects-nav a:hover,
+			.post-navigation a:hover { background-color: #1C92B3 }
+			.sidenav li a:hover, .widget_wp_nav_menu_desc li a:hover { color: #1C92B3 }
+			.sidenav li.current_page_item a, .widget_wp_nav_menu_desc li.current_page_item a { border-left-color: #1C92B3; color: #1C92B3; }
+			.sidenav li.current_page_item a, .sidenav li.current_page_item a:hover, .widget_wp_nav_menu_desc li.current_page_item a, .widget_wp_nav_menu_desc li.current_page_item a:hover { background-color: #1C92B3; }
+			#back-to-top a:hover { background-color: #1C92B3 }
+			.widget_tag_cloud a:hover { background: #1C92B3; border-color: #1C92B3; }
+			.widget_flickr #flickr_tab a:hover { background: #1C92B3; border-color: #1C92B3; }
+			.widget_portfolio .portfolio-widget-item .portfolio-pic:hover { background: #1C92B3; border-color: #1C92B3; }
+			#footer .widget_tag_cloud a:hover,
+			#infobar .widget_tag_cloud a:hover { background: #1C92B3; border-color: #1C92B3; }
+			#footer .widget_flickr #flickr_tab a:hover,
+			#infobar .widget_flickr #flickr_tab a:hover { background: #1C92B3; border-color: #1C92B3; }
+			#footer .widget_portfolio .portfolio-widget-item .portfolio-pic:hover,
+			#infobar .widget_portfolio .portfolio-widget-item .portfolio-pic:hover { background: #1C92B3; border-color: #1C92B3; }
+			.flex-direction-nav a:hover { background-color: #1C92B3 }
+			a.button.alternative-1 { background: #1C92B3; border-color: #1C92B3; }
+			.gallery img:hover { background: #1C92B3; border-color: #1C92B3 !important; }
+			.skillbar .skill-percentage { background: #1C92B3 }
+			.latest-blog .blog-item:hover h4 { color: #1C92B3 }
+			.tp-caption.big_colorbg{ background: #1C92B3; }
+			.tp-caption.medium_colorbg{ background: #1C92B3; }
+			.tp-caption.small_colorbg{ background: #1C92B3; }
+			.tp-caption.customfont_color{ color: #1C92B3; }
+			.tp-caption a { color: #1C92B3; }
+			.tp-leftarrow.default:hover,
+			.tp-rightarrow.default:hover { background-color: #1C92B3 !important; }
+			.wooslider-direction-nav a:hover { background-color: #1C92B3; }
+
+        
+</style>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-includes/js/comment-reply.min.js?ver=3.8.7'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=3.8.7'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/easing.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/fitvids.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.seminarioexcelencia.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.seminarioexcelencia.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Dr. D. Javier Guerra Aguirre' href='http://www.seminarioexcelencia.com/dr-d-javier-guerra-aguirre/' />
+<link rel='next' title='Sra. Dña. Anna Cruz Oliveras' href='http://www.seminarioexcelencia.com/sra-da-anna-cruz-oliveras/' />
+<meta name="generator" content="WordPress 3.8.7" />
+<link rel='shortlink' href='http://www.seminarioexcelencia.com/?p=138' />
+<style type="text/css" media="screen">
+  #cookie-law {  
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index:9999; 
+}
+
+#cookie-law > div {  
+  background:#fff; 
+  opacity:0.95; 
+  width:75% !important;
+  padding:20px;
+  max-width: 600px;
+  margin:auto;
+  display: inline-block;
+  text-align: left !important;
+  border-radius:5px 5px 0 0;
+  -moz-border-radius:5px 5px 0 0;
+  -webkit-border-radius:5px 5px 0 0;
+  -o-border-radius:5px 5px 0 0;
+  box-shadow: 0px 0px 20px #A1A1A1;
+  -webkit-box-shadow: 0px 0px 20px #A1A1A1;
+  -moz-box-shadow: 0px 0px 20px #A1A1A1;
+  -o-box-shadow: 0px 0px 20px #A1A1A1; 
+  position:relative;
+}
+
+#cookie-law h4 { padding: 0 !important; margin:0 0 8px !important; text-align:left !important; font-size:13px !important; color:#444; 
+}
+#cookie-law p { padding: 0 !important; margin:0 !important; text-align:left !important; font-size:12px !important; line-height: 18px !important; color:#888;
+}
+
+a.close-cookie-banner {
+  position: absolute;
+  top:0px;
+  right:0px;
+  margin:10px;
+  display:block;
+  width:20px;
+  height:20px;
+  background:url(http://www.seminarioexcelencia.com/wp-content/plugins/creare-eu-cookie-law-banner/images/close.png) no-repeat;
+  background-size: 20px !important;
+}
+
+a.close-cookie-banner span {
+  display:none !important;
+}</style>
+ 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	
+<!-- All in One SEO Pack 2.1.4 by Michael Torbert of Semper Fi Web Design[384,504] -->
+<link rel="canonical" href="http://www.seminarioexcelencia.com/dr-d-fernando-mejia/" />
+<!-- /all in one seo pack -->
+
+	<style>
+		
+				
+		 		@media only screen and (max-width: 767px) {
+			#topbar .callus{ background: #f7f7f7; }	
+		}
+				
+				
+				
+					@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+			only screen and (min-device-pixel-ratio: 2) {
+				.header .logo .logo_standard{ display: none; }
+				.header .logo .logo_retina{ display: inline; }
+			}
+		
+				
+				
+	</style>
+
+
+</head>
+
+<body class="page page-id-138 page-template page-template-page-fullwidth-php">
+
+		
+		<div id="topbar" class="clearfix ">
+	
+		<div class="container">
+		
+			<div class="eight columns">
+									<div class="callus">Miércoles, 9 de Abril de 2014 - Fundación Jiménez Díaz (Madrid - España)</div>
+					<div class="clear"></div>
+							</div>
+			
+						<div class="eight columns">
+				<div class="social-icons clearfix">
+					<ul>
+																																																																																																																																									</ul>
+				</div>
+			</div>
+					
+		</div>
+	
+	</div> <!-- end topbar -->
+	
+	<header id="header-v3" class="header clearfix">
+		
+	<div class="container">
+	
+		<div class="four columns">
+			<div class="logo">
+									<a href="http://www.seminarioexcelencia.com/"><img src="http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/Logotipo_seminario-300x124.jpg" alt="Seminario Internacional de Seguridad del Paciente y Excelencia Clínica IDCSalud" class="logo_standard" /></a>
+					<a href="http://www.seminarioexcelencia.com/"><img src="http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/Logotipo_def@2.jpg" width="321" height="133" alt="Seminario Internacional de Seguridad del Paciente y Excelencia Clínica IDCSalud" class="logo_retina" /></a>							</div>
+		</div>
+		
+		<div id="navigation" class="twelve columns clearfix">
+		
+							<form action="http://www.seminarioexcelencia.com/" id="header-searchform" method="get">
+				        <input type="text" id="header-s" name="s" value="" autocomplete="off" />
+				        <input type="submit" value="Search" id="header-searchsubmit" />
+				</form>
+					
+			<div class="menu-menu-container"><ul id="nav" class="menu"><li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="http://www.seminarioexcelencia.com/">Bienvenida</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="http://www.seminarioexcelencia.com/programa/">Programa</a></li>
+<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="http://www.seminarioexcelencia.com/ponentes/">Ponentes</a></li>
+<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="http://www.seminarioexcelencia.com/comite-organizador-2/">Comité Organizador</a></li>
+<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a href="http://www.seminarioexcelencia.com/como-llegar/">Cómo llegar</a></li>
+</ul></div>
+		</div>
+
+	</div>
+	
+</header>		
+	
+		
+				<!-- Titlebar Type: Default Titlebar -->
+	
+			<div id="title">
+				<div class="container">
+					<div class="ten columns">
+						<h1>Dr. D. Fernando Mejía. </h1>
+											</div>
+									</div>
+			</div>
+			
+					
+				
+		
+	<!-- End: Title Bar -->
+
+
+	<div id="page-wrap" class="container">
+	
+		<div id="content" class="sixteen columns">
+						
+			<article id="post-138" class="post-138 page type-page status-publish hentry">
+	
+				<div class="entry">
+	
+					<div class="one_half">
+<div class="member">
+<div class='member-img'><img src='http://www.seminarioexcelencia.com/wp-content/uploads/2014/02/hombre-generico.png' /></div>
+<h4>Dr. D. Fernando Mejía</h4>
+<div class="member-role">Director Médico, Hospital Universitario 12 de Octubre, Madrid</div>
+</div>
+</div>
+<div class="one_half last">
+<h4 class="title"><span>Biografía</span></h4>
+<p>Director Médico Hospital Universitario &#8220;12 de Octubre&#8221; de Madrid. Licenciado en Medicina y Cirugía por la Universidad Complutense de Madrid, especialista MIR en Medicina Interna. Grado en Derecho por la Universidad Carlos III de Madrid. Ha ocupado también los cargos de Subdirector Gerente del Hospital Universitario La Paz de Madrid, Director Médico del Hospital Universitario de Getafe y Jefe de Sección del Servicio de Medicina Interna del Hospital Universitario Principe de Asturias de Alcalá de Henares.</p>
+</div>
+<div class="clear"></div>
+	
+						
+				</div>
+	
+			</article>
+			
+				
+					</div> <!-- end content -->
+	
+	</div> <!-- end page-wrap -->
+	
+	<div class="clear"></div>
+	
+		
+		
+		
+			
+	<div id="copyright" class="clearfix">
+		<div class="container">
+			
+			<div class="copyright-text eight columns">
+									<div class="eight columns">© 1er Seminario Internacional de Seguridad del Paciente y Excelencia Clínica</div>
+<div class="eight columns">
+<a href="http://www.seminarioexcelencia.com/condiciones-de-uso/" style="color:white;">Condiciones de uso</a></div>							</div>
+			
+						
+		</div>
+	</div><!-- end copyright -->
+		
+	<div class="clear"></div>
+		
+	
+	<div id="back-to-top"><a href="#">Subir</a></div>
+	
+		
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35763500-14', 'seminarioexcelencia.com');
+  ga('send', 'pageview');
+
+</script>	
+	<script type="text/javascript">
+  var dropCookie = true;
+  var cookieDuration = 365; 
+  var cookieName = 'complianceCookie';
+  var cookieValue = 'on';
+    var privacyMessage = "";
+
+  jQuery(document).ready(function($) {
+    privacyMessage = jQuery('#hidden-cookie-message').html();
+      	if(checkCookie(window.cookieName) != window.cookieValue){
+  		createDiv(true); 
+  		window.setTimeout(function() {
+      		$('#cookie-law').fadeOut();
+  		}, 10000);
+  	}
+  });
+</script>
+<div id="hidden-cookie-message" style="display:none;">
+  <div>
+    <h4>Utilización de cookies propias y de análisis en www.seminarioexcelencia.com</h4>
+<p>Este sitio web utiliza Cookies propias para recopilar información con la finalidad de mejorar nuestros servicios, así como el análisis de sus hábitos de navegación. Si continua navegando, supone la aceptación de la instalación de las mismas. El usuario tiene la posibilidad de configurar su navegador pudiendo, si así lo desea, impedir que sean instaladas en su disco duro, aunque deberá tener en cuenta que dicha acción podrá ocasionar dificultades de navegación de página web.</p>    <a class="close-cookie-banner" href="javascript:void(0);" onclick="jQuery(this).parent().parent().hide();"><span>Close</span></a>
+  </div>
+</div>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/plugins/creare-eu-cookie-law-banner/js/eu-cookie-law.js'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/shortcodes.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/bootstrap.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/superfish.js?ver=1.4'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/mobilemenu.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/waypoints.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/waypoints-sticky.js?ver=1.4'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/functions.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/prettyPhoto.js?ver=3.1'></script>
+<script type='text/javascript' src='http://www.seminarioexcelencia.com/wp-content/themes/inovado/framework/js/twitter/jquery.tweet.min.js?ver=1.0'></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+    
+	    /* ------------------------------------------------------------------------ */
+		/* Add PrettyPhoto */
+		/* ------------------------------------------------------------------------ */
+		
+		var lightboxArgs = {			
+						animation_speed: 'fast',
+						overlay_gallery: true,
+			autoplay_slideshow: false,
+						slideshow: 5000, /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+									theme: 'light_rounded', 
+									opacity: 0.8,
+						show_title: true,
+			social_tools: "",			deeplinking: false,
+			allow_resize: true, 			/* Resize the photos bigger than viewport. true/false */
+			counter_separator_label: '/', 	/* The separator for the gallery counter 1 "of" 2 */
+			default_width: 940,
+			default_height: 529
+		};
+		
+					$('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], a[href$=png], a[href$=gif], a[href$=bmp]:has(img)').prettyPhoto(lightboxArgs);
+				
+		$('a[class^="prettyPhoto"], a[rel^="prettyPhoto"]').prettyPhoto(lightboxArgs);
+		
+			    
+	    	    		if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
+					$('#header, #header-v2 #navigation, #header-v3, #header-v4 #navigation, #header-v5 #navigation').waypoint('sticky');
+				}			
+	    
+});
+	
+</script>
+	
+<!-- /*  */ -->
+</body>
+
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: www.seminarioexcelencia.com @ 2015-04-28 04:55:27 by W3 Total Cache -->

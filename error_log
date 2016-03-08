@@ -1,0 +1,60 @@
+[17-Apr-2015 14:51:08 Europe/London] PHP Fatal error:  Class 'fpdf\FPDF' not found in /home2/seminari/public_html/beta/app/helpers/exportpdf.php on line 3
+[22-Apr-2015 13:34:51 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/beta/app/controllers/registro.php on line 81
+[22-Apr-2015 13:34:53 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/beta/app/controllers/registro.php on line 81
+[22-Apr-2015 13:35:07 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/beta/app/controllers/registro.php on line 81
+[22-Apr-2015 16:31:07 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:11 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:14 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:14 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:15 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:27 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:29 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:36 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:37 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 16:31:38 Europe/London] PHP Fatal error:  Cannot redeclare class controllers\Registro in /home2/seminari/public_html/beta/app/views/registro.php on line 107
+[22-Apr-2015 17:25:22 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[22-Apr-2015 17:26:23 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[22-Apr-2015 17:26:28 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[22-Apr-2015 17:26:57 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[22-Apr-2015 17:27:06 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[22-Apr-2015 17:27:10 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[22-Apr-2015 17:27:16 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[22-Apr-2015 17:27:18 Europe/London] PHP Parse error:  syntax error, unexpected '.' in /home2/seminari/public_html/beta/app/views/admin/editponente.php on line 13
+[04-May-2015 11:12:25 Europe/London] PHP Fatal error:  Class 'models\seminario' not found in /home2/seminari/public_html/app/controllers/seminario.php on line 10
+[04-May-2015 11:12:37 Europe/London] PHP Fatal error:  Class 'models\seminario' not found in /home2/seminari/public_html/app/controllers/seminario.php on line 10
+[06-May-2015 15:45:41 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/controllers/registro.php on line 79
+[06-May-2015 15:45:44 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/controllers/registro.php on line 79
+[06-May-2015 15:45:45 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/controllers/registro.php on line 79
+[06-May-2015 15:45:48 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/controllers/registro.php on line 79
+[07-May-2015 13:28:54 Europe/London] PHP Fatal error:  Call to undefined method helpers\Url::reditect() in /home2/seminari/public_html/app/controllers/condiciones.php on line 16
+[07-May-2015 13:29:03 Europe/London] PHP Fatal error:  Call to undefined method helpers\Url::reditect() in /home2/seminari/public_html/app/controllers/condiciones.php on line 16
+[07-May-2015 13:29:06 Europe/London] PHP Fatal error:  Call to undefined method helpers\Url::reditect() in /home2/seminari/public_html/app/controllers/condiciones.php on line 16
+[07-May-2015 13:29:09 Europe/London] PHP Fatal error:  Call to undefined method helpers\Url::reditect() in /home2/seminari/public_html/app/controllers/condiciones.php on line 16
+[07-May-2015 13:29:09 Europe/London] PHP Fatal error:  Call to undefined method helpers\Url::reditect() in /home2/seminari/public_html/app/controllers/condiciones.php on line 16
+[07-May-2015 13:29:10 Europe/London] PHP Fatal error:  Call to undefined method helpers\Url::reditect() in /home2/seminari/public_html/app/controllers/condiciones.php on line 16
+[07-May-2015 13:29:11 Europe/London] PHP Fatal error:  Call to undefined method helpers\Url::reditect() in /home2/seminari/public_html/app/controllers/condiciones.php on line 16
+[07-May-2015 14:24:43 Europe/London] PHP Fatal error:  Call to undefined function core\isEmpy() in /home2/seminari/public_html/app/core/language.php on line 75
+[07-May-2015 14:24:45 Europe/London] PHP Fatal error:  Call to undefined function core\isEmpy() in /home2/seminari/public_html/app/core/language.php on line 75
+[07-May-2015 14:24:53 Europe/London] PHP Fatal error:  Call to undefined function core\isEmpy() in /home2/seminari/public_html/app/core/language.php on line 75
+[07-May-2015 14:24:57 Europe/London] PHP Fatal error:  Call to undefined function core\isEmpy() in /home2/seminari/public_html/app/core/language.php on line 75
+[26-May-2015 22:40:53 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/helpers/exportexcel.php on line 54
+[26-May-2015 22:41:07 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/helpers/exportexcel.php on line 54
+[26-May-2015 22:41:50 Europe/London] PHP Parse error:  syntax error, unexpected ';' in /home2/seminari/public_html/app/helpers/exportexcel.php on line 68
+[26-May-2015 22:43:37 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/helpers/exportexcel.php on line 54
+[26-May-2015 22:43:42 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/seminari/public_html/app/helpers/exportexcel.php on line 54
+[04-Jun-2015 14:05:23 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:05:26 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:05:37 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:37 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:40 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:41 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:42 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:43 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:43 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:44 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:44 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:44 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:06:44 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:10:16 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:10:19 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
+[04-Jun-2015 14:10:21 Europe/London] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home2/seminari/public_html/app/controllers/seminario.php on line 39
