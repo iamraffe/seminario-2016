@@ -1,18 +1,10 @@
 /* mixins, variables, etc. */
-.Box_sizing {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 /* universal */
 html,
 body {
   margin: 0;
   padding: 0;
-  color: #5e5e5e;
-}
-html * {
-  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  color: #4b4f54;
 }
 .aqua {
   color: #00b1ac !important;
@@ -43,64 +35,6 @@ a:hover {
 a:focus {
   color: #039b96;
   outline: none !important;
-}
-.btn-seminario-aqua {
-  color: #ffffff;
-  background-color: #00B1AC;
-  border-color: #00B1AC;
-}
-.btn-seminario-aqua:hover,
-.btn-seminario-aqua:focus,
-.btn-seminario-aqua:active,
-.btn-seminario-aqua.active,
-.open .dropdown-toggle.btn-seminario-aqua {
-  color: #ffffff;
-  background-color: #00A6A0;
-  border-color: #00B1AC;
-}
-.btn-seminario-aqua:active,
-.btn-seminario-aqua.active,
-.open .dropdown-toggle.btn-seminario-aqua {
-  background-image: none;
-}
-.btn-seminario-aqua.disabled,
-.btn-seminario-aqua[disabled],
-fieldset[disabled] .btn-seminario-aqua,
-.btn-seminario-aqua.disabled:hover,
-.btn-seminario-aqua[disabled]:hover,
-fieldset[disabled] .btn-seminario-aqua:hover,
-.btn-seminario-aqua.disabled:focus,
-.btn-seminario-aqua[disabled]:focus,
-fieldset[disabled] .btn-seminario-aqua:focus,
-.btn-seminario-aqua.disabled:active,
-.btn-seminario-aqua[disabled]:active,
-fieldset[disabled] .btn-seminario-aqua:active,
-.btn-seminario-aqua.disabled.active,
-.btn-seminario-aqua[disabled].active,
-fieldset[disabled] .btn-seminario-aqua.active {
-  background-color: #00B1AC;
-  border-color: #00B1AC;
-}
-.btn-seminario-aqua .badge {
-  color: #00B1AC;
-  background-color: #ffffff;
-}
-/* button custom: 177, 88, 39, 5*/
-.btn-custom {
-  background-color: #0aa39b !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0dd2c9", endColorstr="#0aa29b");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#0dd2c9), to(#0aa29b));
-  background-image: -moz-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: -ms-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0dd2c9), color-stop(100%, #0aa29b));
-  background-image: -webkit-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: -o-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: linear-gradient(#0dd2c9, #0aa29b);
-  border-color: #0aa29b #0aa29b #0a9790;
-  color: #fff !important;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
-  -webkit-font-smoothing: antialiased;
 }
 @media (max-width: 768px) {
   ul.breadcrumb {
@@ -159,7 +93,6 @@ img.logo-seminario {
   max-height: 30px;
 }
 #logo-placeholder {
-  background-color: #4b4f54;
   display: block;
   overflow: hidden;
 }
@@ -168,7 +101,6 @@ img.logo-seminario {
 }
 #logo-placeholder > .container ul {
   list-style-type: none;
-  color: white;
   position: absolute;
   bottom: 10px;
   right: 0;
@@ -179,7 +111,7 @@ img.logo-seminario {
   }
 }
 #logo-placeholder #logo-seminario {
-  max-width: 65%;
+  max-width: 45%;
   padding: 2.5%;
   float: left;
 }
@@ -201,7 +133,6 @@ img.logo-seminario {
   }
 }
 #navbar-primary.navbar-default {
-  background: rgba(191, 191, 191, 0.12);
   border: none;
 }
 #navbar-primary.navbar-default .navbar-nav {
@@ -211,19 +142,29 @@ img.logo-seminario {
 #navbar-primary.navbar-default .navbar-nav > li {
   display: inline-block;
   float: none;
+  letter-spacing: 2px;
 }
 #navbar-primary.navbar-default .navbar-nav > li > a {
-  color: #5e5e5e;
-  font-size: 1.25em;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 18px;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 400;
+  transition: all .3s;
 }
 #navbar-primary.navbar-default .navbar-nav > li.active > a {
-  font-weight: bold;
+  font-weight: 900;
   background: transparent;
-  border-bottom: 3px solid #5e5e5e;
   box-shadow: none;
+}
+@media (min-width: 1024px) {
+  #navbar-primary.navbar-default .navbar-nav > li.active > a:before {
+    font-family: 'Ionicons';
+    content: "\f365";
+    font-size: 1.5em;
+    position: absolute;
+    bottom: -8px;
+    left: 42.5%;
+  }
 }
 @media (max-width: 767px) {
   #navbar-primary.navbar-default .navbar-nav {
@@ -240,26 +181,33 @@ footer {
   text-align: center;
   font-size: 1.25em;
 }
+footer p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.65em;
+}
 footer a {
-  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.5em;
 }
 /* HOME */
 .jumbotron {
   /*background-color: #e5e5e5;
     border-radius: 0 !important;*/
-  background: rgba(191, 191, 191, 0.12);
-  border-radius: 10px !important;
-  color: #5e5e5e !important;
+  color: #4b4f54 !important;
   text-align: center;
   overflow-y: hidden;
-  height: 325px;
+  height: 300px;
+  background-color: transparent;
 }
-.jumbotron .big-text img {
-  width: 15%;
+.jumbotron .site-title {
+  font-size: 2.75em;
+  font-weight: 300;
 }
-.jumbotron h1 {
-  font-size: 2.5em;
-  font-weight: 400;
+.jumbotron .site-title span {
+  font-weight: 800;
+  display: block;
 }
 @media (max-width: 767px) {
   .jumbotron {
@@ -274,12 +222,13 @@ footer a {
   padding-bottom: 50px;
 }
 .letter-content h3 {
-  font-size: 1.5em;
+  font-size: 1.15em;
   line-height: 2.5em;
 }
 .letter-content p {
   line-height: 1.75em;
-  font-size: 1.25em;
+  font-size: 1em;
+  font-weight: 300;
 }
 /* PROGRAMA */
 .programa-seminario {
@@ -288,6 +237,10 @@ footer a {
 .programa-seminario p {
   margin: 0;
   font-size: 1em;
+  font-weight: 300;
+}
+.programa-seminario p.ponente-name {
+  font-weight: 500;
 }
 .programa-seminario .programa-header .program-time {
   position: relative;
@@ -351,7 +304,7 @@ footer a {
   font-weight: bold;
 }
 .light-gray-background {
-  background: rgba(191, 191, 191, 0.12);
+  background: #f5f5f5;
 }
 /* PONENTES OVERALL*/
 .thumb {
@@ -367,7 +320,7 @@ footer a {
   font-size: 0.8em;
 }
 .thumb a {
-  color: #5e5e5e;
+  color: #4b4f54;
 }
 .thumb a:hover {
   color: #00b1ac;
@@ -655,4 +608,45 @@ footer a {
     color: #444;
     background-color: transparent;
   }
+}
+.btn-custom {
+  color: #FFFFFF;
+  background-color: #E94462;
+  border-color: #E94462;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.open .dropdown-toggle.btn-custom {
+  color: #FFFFFF;
+  background-color: #CC3D57;
+  border-color: #E94462;
+}
+.btn-custom:active,
+.btn-custom.active,
+.open .dropdown-toggle.btn-custom {
+  background-image: none;
+}
+.btn-custom.disabled,
+.btn-custom[disabled],
+fieldset[disabled] .btn-custom,
+.btn-custom.disabled:hover,
+.btn-custom[disabled]:hover,
+fieldset[disabled] .btn-custom:hover,
+.btn-custom.disabled:focus,
+.btn-custom[disabled]:focus,
+fieldset[disabled] .btn-custom:focus,
+.btn-custom.disabled:active,
+.btn-custom[disabled]:active,
+fieldset[disabled] .btn-custom:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #E94462;
+  border-color: #E94462;
+}
+.btn-custom .badge {
+  color: #E94462;
+  background-color: #FFFFFF;
 }

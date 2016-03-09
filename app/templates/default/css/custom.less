@@ -1,17 +1,11 @@
 /* mixins, variables, etc. */
 
-@gray-light: rgba(191,191,191,0.12);
-@gray-main: #5e5e5e;
-@gray-dark: #4b4f54;
+@gray-light: #DDDADB;
+@gray-main: #4b4f54;
+@gray-dark: #231F20;
 @aqua: #00B1AC;
 @red: #F05169;
 @img-url: '../../../../img/';
-
-.Box_sizing {
-  -moz-box-sizing:    border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
-}
 
 /* universal */
 html, body{
@@ -19,9 +13,7 @@ html, body{
   padding: 0; 
   color: @gray-main;
 }
-html *{
-  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; 
-}
+
 
 .aqua{
   color: @aqua !important;
@@ -57,69 +49,6 @@ a{
     color: #039b96;
     outline: none !important;
   } 
-}
-
-.btn-seminario-aqua { 
-  color: #ffffff; 
-  background-color: #00B1AC; 
-  border-color: #00B1AC; 
-} 
- 
-.btn-seminario-aqua:hover, 
-.btn-seminario-aqua:focus, 
-.btn-seminario-aqua:active, 
-.btn-seminario-aqua.active, 
-.open .dropdown-toggle.btn-seminario-aqua { 
-  color: #ffffff; 
-  background-color: #00A6A0; 
-  border-color: #00B1AC; 
-} 
- 
-.btn-seminario-aqua:active, 
-.btn-seminario-aqua.active, 
-.open .dropdown-toggle.btn-seminario-aqua { 
-  background-image: none; 
-} 
- 
-.btn-seminario-aqua.disabled, 
-.btn-seminario-aqua[disabled], 
-fieldset[disabled] .btn-seminario-aqua, 
-.btn-seminario-aqua.disabled:hover, 
-.btn-seminario-aqua[disabled]:hover, 
-fieldset[disabled] .btn-seminario-aqua:hover, 
-.btn-seminario-aqua.disabled:focus, 
-.btn-seminario-aqua[disabled]:focus, 
-fieldset[disabled] .btn-seminario-aqua:focus, 
-.btn-seminario-aqua.disabled:active, 
-.btn-seminario-aqua[disabled]:active, 
-fieldset[disabled] .btn-seminario-aqua:active, 
-.btn-seminario-aqua.disabled.active, 
-.btn-seminario-aqua[disabled].active, 
-fieldset[disabled] .btn-seminario-aqua.active { 
-  background-color: #00B1AC; 
-  border-color: #00B1AC; 
-} 
- 
-.btn-seminario-aqua .badge { 
-  color: #00B1AC; 
-  background-color: #ffffff; 
-}
-/* button custom: 177, 88, 39, 5*/
-.btn-custom {
-  background-color: hsl(177, 88%, 34%) !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0dd2c9", endColorstr="#0aa29b");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#0dd2c9), to(#0aa29b));
-  background-image: -moz-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: -ms-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0dd2c9), color-stop(100%, #0aa29b));
-  background-image: -webkit-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: -o-linear-gradient(top, #0dd2c9, #0aa29b);
-  background-image: linear-gradient(#0dd2c9, #0aa29b);
-  border-color: #0aa29b #0aa29b hsl(177, 88%, 31.5%);
-  color: #fff !important;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
-  -webkit-font-smoothing: antialiased;
 }
 
 ul.breadcrumb{
@@ -189,7 +118,7 @@ img.logo-seminario{
 }
 
  #logo-placeholder{
-    background-color: @gray-dark;
+    // background-color: @gray-main;
     display: block;
     overflow: hidden;
 
@@ -197,7 +126,9 @@ img.logo-seminario{
       position: relative;
       ul{
         list-style-type: none;
-        color: white;
+        // font-weight: 300;
+        // font-size: 1em;
+        // color: white;
         position: absolute;
         bottom: 10px;
         right: 0;
@@ -207,7 +138,7 @@ img.logo-seminario{
       }
     }
     #logo-seminario {
-      max-width: 65%; 
+      max-width: 45%; 
       padding: 2.5%; 
       float: left;
       @media(max-width:1023px){
@@ -229,7 +160,7 @@ img.logo-seminario{
 
 
   #navbar-primary.navbar-default {
-    background: @gray-light;
+    // background: @gray-light;
     border: none;
    
   } 
@@ -239,18 +170,40 @@ img.logo-seminario{
         > li {
         display: inline-block;
         float: none;
+        letter-spacing:2px;
           > a {
-          color: @gray-main;
-          font-size: 1.25em;
-          padding-left: 30px;
-          padding-right: 30px;
-          padding-top: 18px;
+          // color: @gray-main;
+          // border-bottom: 2px solid darken(@aqua, 2.5%);
+          font-size: 1em;
+          text-transform: uppercase;
+          padding: 20px;
+          font-weight: 400;
+          // padding-left: 30px;
+          // padding-right: 30px;
+          // padding-top: 18px;
+          transition: all .3s;
+          &:hover{
+
+            // border-bottom: 2px solid white;
+          }
         }
         &.active > a{
-          font-weight: bold;
+          font-weight: 900;
           background: transparent;
-          border-bottom: 3px solid @gray-main;
+          // border-bottom: 2px solid white;
+          // border-bottom: 3px solid @gray-main;
+          // border-bottom: 3px solid white;
           box-shadow: none;
+          @media(min-width: 1024px){
+            &:before{
+              font-family:'Ionicons';
+              content: "\f365";
+              font-size: 1.5em;
+              position: absolute;
+              bottom: -8px;
+              left: 42.5%;
+            }
+          }
         }         
       }
     }
@@ -264,15 +217,19 @@ img.logo-seminario{
   }
   footer{
     padding: 20px;
-    background-color: @gray-dark;
+    background-color: @gray-main;
     color: white;
     text-align: center;
     font-size: 1.25em;
     p{
-
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.65em;
     }
     a{
-      color: white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.5em;
     }  
   }
 
@@ -280,20 +237,20 @@ img.logo-seminario{
   .jumbotron{
     /*background-color: #e5e5e5;
     border-radius: 0 !important;*/
-    background: @gray-light;
-    border-radius: 10px !important;
+    // background: @gray-light;
+    // border-radius: 10px !important;
     color: @gray-main !important;
     text-align: center;
     overflow-y: hidden;
-    height: 325px;
-    .big-text{
-      img{
-        width: 15%;
-      }      
-    }
-    h1{
-      font-size: 2.5em;
-      font-weight: 400;
+    height: 300px;
+    background-color:transparent;
+    .site-title{
+      font-size: 2.75em;
+      font-weight: 300;
+      span{
+        font-weight: 800;
+        display: block
+      }
     }
   }
 
@@ -314,13 +271,14 @@ img.logo-seminario{
 
   .letter-content{
     h3{
-      font-size: 1.5em;
+      font-size: 1.15em;
       line-height: 2.5em;
     }
 
     p{
       line-height: 1.75em;
-      font-size: 1.25em;
+      font-size: 1em;
+      font-weight: 300;
     }
   }
 
@@ -330,6 +288,10 @@ img.logo-seminario{
   p{
     margin: 0;
     font-size: 1em;
+    font-weight: 300;
+    &.ponente-name{
+      font-weight: 500;
+    }
   }
   .programa-header{
 
@@ -388,7 +350,7 @@ img.logo-seminario{
 
 
 .light-gray-background{
-  background: @gray-light;
+  background: #f5f5f5;
 }  
 
 
@@ -691,4 +653,50 @@ img.logo-seminario{
         color: #444;
         background-color: transparent;
     }
+}
+
+.btn-custom { 
+  color: #FFFFFF; 
+  background-color: #E94462; 
+  border-color: #E94462; 
+} 
+ 
+.btn-custom:hover, 
+.btn-custom:focus, 
+.btn-custom:active, 
+.btn-custom.active, 
+.open .dropdown-toggle.btn-custom { 
+  color: #FFFFFF; 
+  background-color: #CC3D57; 
+  border-color: #E94462; 
+} 
+ 
+.btn-custom:active, 
+.btn-custom.active, 
+.open .dropdown-toggle.btn-custom { 
+  background-image: none; 
+} 
+ 
+.btn-custom.disabled, 
+.btn-custom[disabled], 
+fieldset[disabled] .btn-custom, 
+.btn-custom.disabled:hover, 
+.btn-custom[disabled]:hover, 
+fieldset[disabled] .btn-custom:hover, 
+.btn-custom.disabled:focus, 
+.btn-custom[disabled]:focus, 
+fieldset[disabled] .btn-custom:focus, 
+.btn-custom.disabled:active, 
+.btn-custom[disabled]:active, 
+fieldset[disabled] .btn-custom:active, 
+.btn-custom.disabled.active, 
+.btn-custom[disabled].active, 
+fieldset[disabled] .btn-custom.active { 
+  background-color: #E94462; 
+  border-color: #E94462; 
+} 
+ 
+.btn-custom .badge { 
+  color: #E94462; 
+  background-color: #FFFFFF; 
 }

@@ -21,12 +21,11 @@
 	<!-- CSS -->
 	<?php
 		helpers\assets::css(array(
-			'//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css',
-			'//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css',
+      helpers\url::template_path() . 'stylesheets/bootstrap.css',
 			'//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
-			'//fonts.googleapis.com/css?family=Muli',
 			'//cdn.datatables.net/plug-ins/1.10.6/integration/bootstrap/3/dataTables.bootstrap.css',
-			helpers\url::template_path() . 'css/custom.css'
+      '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css',
+      helpers\url::template_path() . 'css/custom.css',
 		))
 	?>
 
@@ -42,17 +41,19 @@
 		<header role="banner">
 		<div id="logo-placeholder">
 			<div class="container">
-			  <a href="<?php echo DIR;?>"><img id="logo-seminario" src="<?php echo DIR;?>img/logoSeminario<?php if(\helpers\cookie::get('choose_language')) echo '_'.\helpers\cookie::get('choose_language'); ?>.svg" alt="2do Seminario Internacional de Seguridad del Paciente y Excelencia Clínica"></a>
-              <ul class="right">
-                <?php echo \core\language::show('all-see', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>
-              </ul>
+			  <a href="<?php echo DIR;?>">
+          <img id="logo-seminario" src="<?php echo DIR;?>img/seminario_2016.png" alt="2do Seminario Internacional de Seguridad del Paciente y Excelencia Clínica">
+        </a>
+        <ul class="right">
+          <li>Jueves, 5 de mayo de 2015</li>
+          <li>Hospital Universitario Fundación Jiménez Díaz (Madrid-España)</li>
+        </ul>
 			</div>
 		</div>
 		<nav id="navbar-primary" class="navbar navbar-default" role="navigation">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
 		        <span class="sr-only">Menú</span>
 		        <span class="icon-bar"></span>
@@ -63,13 +64,12 @@
 		    </div>
 		    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
 		      <ul class="nav navbar-nav">
-		        <li <?php echo $data['isBienvenida'] ?>><a href="<?php echo DIR;?>" title="<?php echo \core\language::show('bienvenida', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>"><?php echo \core\language::show('bienvenida', 'seminario_basic', \helpers\cookie::get('choose_language')); ?></a></li>
-		        <li <?php echo $data['isPrograma'] ?>><a href="<?php echo DIR;?>programa" title="<?php echo \core\language::show('programa', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>"><?php echo \core\language::show('programa', 'seminario_basic', \helpers\cookie::get('choose_language')); ?></a></li>
-		        <li <?php echo $data['isPonentes'] ?>><a href="<?php echo DIR;?>ponentes" title="<?php echo \core\language::show('ponentes', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>"><?php echo \core\language::show('ponentes', 'seminario_basic', \helpers\cookie::get('choose_language')); ?></a></li>
-		        <li <?php echo $data['isComo-llegar'] ?>><a href="<?php echo DIR;?>como-llegar" title="<?php echo \core\language::show('como_llegar', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>"><?php echo \core\language::show('como_llegar', 'seminario_basic', \helpers\cookie::get('choose_language')); ?></a></li>
-		        <!-- <li <?php echo $data['isRegistro'] ?>><a href="<?php echo DIR;?>registro" title="<?php echo \core\language::show('inscripcion', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>"><?php echo \core\language::show('inscripcion', 'seminario_basic', \helpers\cookie::get('choose_language')); ?></a></li> -->
-		        <li <?php echo $data['isPremio'] ?>><a href="<?php echo DIR;?>premio" title="<?php echo \core\language::show('premios', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>"><?php echo \core\language::show('premios', 'seminario_basic', \helpers\cookie::get('choose_language')); ?></a></li>
-                <li><a href="<?php echo DIR;?>lang" title="<?php echo \core\language::show('choose_language', 'seminario_basic', \helpers\cookie::get('choose_language')); ?>"><?php echo \core\language::show('choose_language', 'seminario_basic', \helpers\cookie::get('choose_language')); ?></a></li>
+		        <li <?php echo $data['isBienvenida'] ?>><a href="<?php echo DIR;?>" title="Bienvenida">Bienvenida</a></li>
+		        <li <?php echo $data['isPrograma'] ?>><a href="<?php echo DIR;?>programa" title="Programa">Programa</a></li>
+		        <li <?php echo $data['isPonentes'] ?>><a href="<?php echo DIR;?>ponentes" title="Ponentes">Ponentes</a></li>
+            <li <?php echo $data['isProyectos'] ?>><a href="<?php echo DIR;?>proyectos" title="Proyectos">Proyectos</a></li>
+		        <li <?php echo $data['isComo-llegar'] ?>><a href="<?php echo DIR;?>como-llegar" title="Cómo Llegar">Cómo Llegar</a></li>
+		        <li <?php echo $data['isRegistro'] ?>><a href="<?php echo DIR;?>registro" title="Inscripción">Inscripción</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
